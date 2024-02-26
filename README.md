@@ -20,9 +20,13 @@
     ```
   
   * Static library
-    `gfortran -c -fPIC one.f90`
-    `gfortran -c -fPIC two.f90`
-    `ar crv libmine.a one.o two.o`
+    ```
+    gfortran -c -fPIC one.f90
+    gfortran -c -fPIC two.f90
+    ar crv libmine.a one.o two.o
+    ```
   
   * Link a particular version
-    `-l:libdmft.so.1.0.0`
+    ```
+    -l:libdmft.so.1.0.0
+    ```
